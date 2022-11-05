@@ -17,6 +17,8 @@ The current structure is the codebase is quite simplistic in approach, yet open 
 **Presentation** - the app uses a single activity with multiple fragments approach; all of which are contained in the Presentation package
 
 
+
+
 **Design**
 The design exhibits a minimalist approach that facilitates readability. The use of bottom navigation menu was employed to enable easy navigation between fragments.
 
