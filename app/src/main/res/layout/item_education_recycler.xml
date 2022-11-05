@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/education_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/education_info"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duration"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppins_regular"
+        app:layout_constraintTop_toBottomOf="@+id/education_info_text_view"
+        app:layout_constraintStart_toStartOf="@+id/education_info_text_view"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

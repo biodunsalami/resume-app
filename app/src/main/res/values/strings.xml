@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyResume Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About</string>
+    <string name="projects">Projects</string>
+    <string name="contact">Contact</string>
+    <string name="hi_i_m_biodun">Hi \nI\'m \nBiodun</string>
+    <string name="more">More</string>
+    <string name="abiodunslam_gmail_com">abiodunslam@gmail.com</string>
+    <string name="ayinlathedev">\@Ayinlathedev</string>
+    <string name="biodunsalami">biodunsalami</string>
+    <string name="name">%1$s %2$s</string>
+    <string name="more_info">I am a dogged problem solver, offering my coding skills \n for the development of android apps that are robust, \nscalable and user friendly. \n\n I am a solid team player, and also excellent at communication.</string>
+    <string name="skills">Skills</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="experience">Experience</string>
+    <string name="position">%1$s</string>
+    <string name="organization">%1$s, %2$s</string>
+    <string name="duration">%1$s - %2$s</string>
+    <string name="education_info">%1$s %2$s, %3$s, %4$s</string>
+    <string name="internship_info">%1$s at %2$s</string>
+    <string name="education">Education</string>
+    <string name="internships">Internships</string>
+    <string name="do_more_app">Do More App</string>
+    <string name="easy_edu">Easy Edu</string>
+    <string name="do_more_app_info">An app that helps users schedule and manage tasks effectively</string>
+    <string name="easy_edu_info">An educational app using the Udemy Api</string>
+    <string name="about_summary">I am software engineer from Lagos, Nigeria with about 1 year experience as an Android Developer. I am passionate about coding and problem solving.</string>
+
+</resources>

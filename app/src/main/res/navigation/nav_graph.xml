@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/landingFragment">
+
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.example.myresumeapplication.fragments.LandingFragment"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing" >
+        <action
+            android:id="@+id/action_landingFragment_to_baseFragment"
+            app:destination="@id/baseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.myresumeapplication.fragments.BaseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" />
+</navigation>
