@@ -1,4 +1,4 @@
-package com.example.myresumeapplication.fragments
+package com.example.myresumeapplication.presentation.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.myresumeapplication.R
 import com.example.myresumeapplication.adapter.BaseAdapter
-import com.example.myresumeapplication.adapter.Data
+import com.example.myresumeapplication.data.Data
 import com.example.myresumeapplication.databinding.*
 import com.example.myresumeapplication.models.Education
 import com.example.myresumeapplication.models.Internship

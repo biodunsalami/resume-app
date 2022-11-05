@@ -1,4 +1,4 @@
-package com.example.myresumeapplication.fragments
+package com.example.myresumeapplication.presentation.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

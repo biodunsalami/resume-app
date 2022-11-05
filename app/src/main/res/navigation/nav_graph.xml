@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/landingFragment"
-        android:name="com.example.myresumeapplication.fragments.LandingFragment"
+        android:name="com.example.myresumeapplication.presentation.fragments.LandingFragment"
         android:label="fragment_landing"
         tools:layout="@layout/fragment_landing" >
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/baseFragment"
-        android:name="com.example.myresumeapplication.fragments.BaseFragment"
+        android:name="com.example.myresumeapplication.presentation.fragments.BaseFragment"
         android:label="fragment_base"
         tools:layout="@layout/fragment_base" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.myresumeapplication.fragments
+package com.example.myresumeapplication.presentation.fragments
 
 import android.content.Intent
 import android.net.Uri
@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.myresumeapplication.R
-import com.example.myresumeapplication.adapter.Data
+import com.example.myresumeapplication.data.Data
 import com.example.myresumeapplication.databinding.FragmentContactBinding
 
 

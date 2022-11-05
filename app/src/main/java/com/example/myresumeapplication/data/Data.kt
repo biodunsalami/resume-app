@@ -1,4 +1,4 @@
-package com.example.myresumeapplication.adapter
+package com.example.myresumeapplication.data
 
 import com.example.myresumeapplication.models.Education
 import com.example.myresumeapplication.models.Internship
@@ -9,7 +9,7 @@ object Data {
 
     val user = User("Abiodun", "Salami", "Android Developer", "abiodunslam@gmail.com")
 
-    val skills = arrayListOf("Kotlin", "Android SDK", "XML", "Jetpack Component", "Git", "Dagger-Hilt", "MVVM", "Firebase")
+    val skills = arrayListOf("Kotlin", "Android SDK", "XML", "Git", "Dagger-Hilt", "MVVM", "Firebase")
 
     val workExperiences = arrayListOf(
         WorkExperience("Infibranches Technologies", "Android Developer", "Lagos", "Sep 2022", "present"),

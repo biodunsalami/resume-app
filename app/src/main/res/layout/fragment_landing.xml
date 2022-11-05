@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.LandingFragment">
+    tools:context=".presentation.fragments.LandingFragment">
 
     <ImageView
         android:id="@+id/cover_image_View"
